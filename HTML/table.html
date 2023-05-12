@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <style>
+    table,th,td{
+        border-bottom:1px solid;
+        border-collapse: collapse;
+    }
+    th,td{
+        padding:5px;
+        text-align:right;
+    }
+    th{
+        background-color: aquamarine;
+    }
+    tr:nth-child(odd){
+        background-color: bisque;
+    }
+
+    
+   </style> 
+   </head>
+</body>
+<table>
+    <!-- <caption>Employee database</caption> -->
+    <tr><td colspan="4">employee database</td></tr>
+    <tr>
+        <th>heading</th>
+        <th>name</th>
+        <th>age</th>
+        <th>country</th>
+
+    </tr>
+    <tr>
+        <td rowspan="3">employee list</td>
+        <td>fiona</td>
+        <td>25</td>
+        <td>italian</td>
+
+    </tr>
+    <tr>
+        <td>sinthia</td>
+        <td>35</td>
+        <td>Us</td>
+
+    </tr>
+    <tr>
+        <td>sammy</td>
+        <td>29</td>
+        <td>Canada</td>
+
+    </tr>
+</table>
+</body>
+</html>

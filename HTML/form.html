@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <feildset>
+            <label for="name">name</label>
+            <input type="text" id="name" name="username" maxlength-="50" value="full name" require>
+            <br>
+            <lable for="date">date</lable>
+            <input type="date">
+            <hr>
+            <!-- checkboxes -->
+            <lable for="skills">skills: </lable>
+            <input type="checkbox" name="skill" value="html">HTML</input>
+            <input type="checkbox" name="skills2" id="skills" value="css">CSS</input>
+            <!--radio buttons -->
+            <!--ensure name is the same for all feilds-->
+            <lable for="gender">gender</lable>
+            <input type="radio" name="radio1" id="gender" value="female">female
+            <input type="radio" name="radio1" id="gender" value="male">male
+            <br>
+            <!-- drop down -->
+            <select name="country" id="country">
+                <option value="canada">canada</option>
+                <option value="america">america</option>
+            </select>
+            <br>
+            <!-- bottons -->
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+            <botton value="submit1" onclick-="alert('thanks')">submit1</botton>
+
+
+
+        </feildset>
+    </form>
+</body>
+</html>
